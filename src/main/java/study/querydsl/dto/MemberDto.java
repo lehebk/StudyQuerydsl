@@ -20,4 +20,8 @@ public class MemberDto {
     public MemberDto(String username) {
         this.username = username;
     }
+
+    public MemberDto(int age) {
+        this.age = age;
+    }
 }
